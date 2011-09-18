@@ -14,11 +14,11 @@
   </project-components>
 
   <actions>
-    <action id="NextIdentifier" class="com.olegych.ihr.actions.NextIdentifierAction"
+    <action id="NextIdentifierReloaded" class="com.olegych.ihr.actions.NextIdentifierAction"
             text="Next Identifier">
       <keyboard-shortcut keymap="$default" first-keystroke="shift alt DOWN"/>
     </action>
-    <action id="PreviousIdentifier" class="com.olegych.ihr.actions.PreviousIdentifierAction"
+    <action id="PreviousIdentifierReloaded" class="com.olegych.ihr.actions.PreviousIdentifierAction"
             text="Previous Identifier">
       <keyboard-shortcut keymap="$default" first-keystroke="shift alt UP"/>
     </action>
