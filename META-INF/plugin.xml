@@ -1,6 +1,6 @@
 <idea-plugin version="2">
-  <name>Plugin name here</name>
-  <description>short description of the plugin</description>
+  <name>Identifier Highlighter Reloaded</name>
+  <description>Gives you one-stroke way to navigate to next/previous identifier occurrence.</description>
   <version>1.0</version>
   <vendor>YourCompany</vendor>
   <idea-version since-build="8000"/>
@@ -14,7 +14,15 @@
   </project-components>
 
   <actions>
-    <!-- Add your actions here -->
+    <action id="NextIdentifier" class="com.olegych.ihr.actions.NextIdentifierAction"
+            text="Next Identifier">
+      <keyboard-shortcut keymap="$default" first-keystroke="shift alt DOWN"/>
+    </action>
+    <action id="PreviousIdentifier" class="com.olegych.ihr.actions.PreviousIdentifierAction"
+            text="Previous Identifier">
+      <keyboard-shortcut keymap="$default" first-keystroke="shift alt UP"/>
+    </action>
+
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
