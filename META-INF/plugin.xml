@@ -1,8 +1,21 @@
-<idea-plugin version="2">
+<idea-plugin version="2" url="http://plugins.intellij.net/plugin/?id=6318">
   <name>Identifier Highlighter Reloaded</name>
-  <description>Gives you one-stroke way to navigate to next/previous identifier occurrence.</description>
-  <version>1.0</version>
-  <vendor>YourCompany</vendor>
+  <description>
+    <![CDATA[
+    Gives you one-stroke way to navigate to next/previous identifier occurrence.
+    <br/>
+    Use Shift+Alt+Up and Shift+Alt+Down to navigate up and down to each identifier occurrence.
+    <br/>
+    Make sure that these shortcuts are not mapped to e.g. "Move Line Up" and "Move Line Down" in Keymap.
+    <br/>
+    Can be used with or without "Highlight usages of element at caret" enabled.
+    <br/>
+    Source available at <a href="http://github.com/olegych/ih-reloaded">http://github.com/olegych/ih-reloaded</a>.
+    ]]>
+  </description>
+  <version>1.01</version>
+  <vendor>OlegYch</vendor>
+  <category>Navigation</category>
   <idea-version since-build="8000"/>
 
   <application-components>
@@ -28,4 +41,21 @@
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
   </extensions>
+
+  <change-notes>
+    <![CDATA[
+    <ul>
+      <li>1.01
+        <ol>
+          <li>Better description.</li>
+        </ol>
+      </li>
+      <li>1.0
+        <ol>
+          <li>Initial version.</li>
+        </ol>
+      </li>
+    </ul>
+    ]]>
+  </change-notes>
 </idea-plugin>
