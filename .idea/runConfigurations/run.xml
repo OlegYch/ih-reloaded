@@ -25,7 +25,7 @@
       <option name="debugPort" value="4128" />
       <option name="jrebelArgs" value="" />
       <option name="loggingEnabled" value="false" />
-      <option name="transport" value="0" />
+      <option name="transport" value="1" />
       <option name="useBootstrapDefaults" value="true" />
       <option name="DEBUG_PORT" value="4128" />
       <option name="TRANSPORT" value="0" />

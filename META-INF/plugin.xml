@@ -18,6 +18,8 @@
   <category>Navigation</category>
   <idea-version since-build="8000"/>
 
+  <depends>com.intellij.modules.lang</depends>
+
   <application-components>
     <!-- Add your application components here -->
   </application-components>
@@ -45,6 +47,11 @@
   <change-notes>
     <![CDATA[
     <ul>
+      <li>1.02
+        <ol>
+          <li>Marked as compatible with all IntelliJ platform IDEs.</li>
+        </ol>
+      </li>
       <li>1.01
         <ol>
           <li>Better description.</li>
