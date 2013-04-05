@@ -25,8 +25,8 @@ class BaseIdentifierNavigationAction extends AnAction {
   }
 
   private void navigate(AnActionEvent e, String navigationActionId) {
-    final Editor editor = PlatformDataKeys.EDITOR.getData(e.getDataContext());
-    final Project project = PlatformDataKeys.PROJECT.getData(e.getDataContext());
+    final Editor editor = e.getData(PlatformDataKeys.EDITOR);
+    final Project project = e.getProject();
     if (editor != null && project != null) {
       final boolean alwaysClearHighlights = getAlwaysClear();
       final boolean clearHighlights = alreadyHighlighted(editor);
