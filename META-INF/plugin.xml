@@ -1,4 +1,4 @@
-<idea-plugin version="2" url="http://plugins.intellij.net/plugin/?id=6318">
+<idea-plugin url="http://plugins.intellij.net/plugin/?id=6318">
   <name>Identifier Highlighter Reloaded</name>
   <description>
     <![CDATA[
@@ -13,20 +13,12 @@
     Source available at <a href="http://github.com/olegych/ih-reloaded">http://github.com/olegych/ih-reloaded</a>.
     ]]>
   </description>
-  <version>1.02.1</version>
+  <version>1.03.0</version>
   <vendor>OlegYch</vendor>
   <category>Navigation</category>
-  <idea-version since-build="8000"/>
+  <idea-version since-build="130"/>
 
   <depends>com.intellij.modules.lang</depends>
-
-  <application-components>
-    <!-- Add your application components here -->
-  </application-components>
-
-  <project-components>
-    <!-- Add your project components here -->
-  </project-components>
 
   <actions>
     <action id="NextIdentifierReloaded" class="com.olegych.ihr.actions.NextIdentifierAction"
@@ -47,6 +39,11 @@
   <change-notes>
     <![CDATA[
     <ul>
+      <li>1.03.0
+        <ol>
+          <li>Compatible with 2025 of IntelliJ platform</li>
+        </ol>
+      </li>
       <li>1.02.1
         <ol>
           <li>Compatible with 12.1 of IntelliJ platform</li>
